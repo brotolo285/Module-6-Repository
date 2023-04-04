@@ -1,0 +1,70 @@
+
+body{background-color: #40407A; color: #40407A;
+font-family: Arial;  margin: 0; }
+
+header{background-image: url(sunrise.jpg); font-size: 90%; min-height: 200px; background-color: #40407A;
+ color: #FFFFFF;  background-size: 100% 100%; margin-top: 50px;}
+header a{text-decoration: none;}
+header a:link { color: #FFFFFF;}
+header a:visited {color: #FFFFFF;}
+header a:hover { color: #8F92B2; transition: color 10s linear;}
+
+.home{ height: 20vh; padding-top: 2em; padding-left: 10%;}
+
+.content{height: 20vh; padding-top: 2em; padding-left: 10%; }
+h2{margin: 0;}
+
+li{font-size: 90%;}
+td,th {padding: 0.5em; border-color: #40407A; border-width: 1px;}
+
+dd{font-size: 90%; }
+ img{float: right;}
+*{box-sizing: border-box; }
+section{padding-left: 0.5em; padding-right: 0.5em; display: inline-block;}
+#flow{ display: block;}
+#wrapper{text-align: left; background-color: #F5F5F5; padding: 2em; margin-left: auto; margin-right: auto;}
+footer{ clear: right; font-style: italic; text-align: center; font-size: 10px;}
+nav{height: auto; padding-right: 0em; position: fixed; top: 0px; left: 0px; z-index: 9999; text-align: right; background-color: #FFFFFF; margin: 0; padding-top: 0.5em; padding-bottom: 1em; }
+nav a:link {color: #3F2860;}
+nav a:visited {color: #497777;}
+nav a:hover {color: #A26100;}
+nav a{text-decoration: none; }
+nav ul { list-style-type: none; margin: 0px; padding-right: 2em; font-size: 1.2em; }
+nav li { display: inline; padding-left: 2em; width: 30%; }
+
+table { border-width: 1px; border-color: #40407A; margin-right: 1em; margin-bottom: 1em; min-width: 350px; border-collapse: collapse;}
+tr  :nth-of-type(even) {background-color: #D7E8E9;}
+table caption {margin: 1em; font-weight: bold; font-size: 120%;}
+form{ display: flex; flex-flow: column nowrap;}
+input, datalist textarea{margin-bottom: .5em;}
+audio{margin-bottom: 1em;}
+
+
+
+#mathero{display: none ; height: 300px; background-image: url(yogamat.jpg); background-size: 100% 100%;
+background-repeat: no-repeat;}
+#loungehero{display: none; height: 300px; background-image: url(yogalounge.jpg); background-size: 100% 100%;
+ background-repeat: no-repeat;}
+
+
+@media only screen and (max-width: 600px) {}
+nav ul{flex-direction: row; flex-wrap: nowrap; justify-content: flex-end;}
+nav li{width: 7em;}
+section{padding-left: 2em; padding-right: 2em;}
+#mathero{display: block; padding-bottom: 1em;}
+#loungehero{display: block; padding-bottom: 1em;}
+#flow{ flex-direction: row; display: inline-flex;}
+form{width: 60%; max-width: 40em; display: grid; grid-gap: 1em; gap: 1em; grid-template-columns: 9em 1fr; grid-template-rows: auto;}
+input[type="submit"]{grid-column: 2/2; width: 9em;}
+
+
+
+@media only screen and (min-width: 1024px) {}
+
+ header{font-size: 120%;}
+ nav{font-weight: bold;}
+ .home{height: 50vh; padding-top: 5em; padding-left: 8em;}
+ .content{height: 30vh; padding-top: 2em; padding-left: 8em;}
+ #wrapper{ margin: auto; width: 80%}
+
+
